@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Speech API Text-to-Speech Demo | Speech Synthesis Example</title>
+    <meta
+      name="description"
+      content="Try our Web Speech API Text-to-Speech (Speech Synthesis) demo. Enter text, select a voice, and convert text into natural-sounding speech in your browser."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <base target="_blank" />
+    <link
+      rel="stylesheet"
+      href="css/main.css"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>Web Speech API Text-to-Speech (Speech Synthesis) Demo</h1>
+      <p>
+        <small>Made by the <a href="https://addpipe.com">Pipe Recording Platform</a></small>
+      </p>
+      <p>
+        This browser-based <strong>Text-to-Speech demo</strong> uses the
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis"
+          rel="noopener noreferrer"
+        >
+          Web Speech API SpeechSynthesis
+        </a>
+        interface to convert written text into speech. It supports multiple languages and voices depending on your browser and OS.
+      </p>
+
+      <h2>How to use this Speech Synthesis Demo:</h2>
+      <ul>
+        <li>Type or paste text into the box below</li>
+        <li>Select a voice from the dropdown</li>
+        <li>Click "Speak" to hear the text read aloud</li>
+        <li>Optional: Download the generated audio file (if supported)</li>
+      </ul>
+
+      <p>
+        <label for="languageSelect"><strong>Select a Language:</strong></label>
+        <select id="languageSelect"></select>
+      </p>
+
+      <p>
+        <label for="voiceSelect"><strong>Select a Voice:</strong></label>
+        <select id="voiceSelect"></select>
+      </p>
+
+      <p>
+        <label for="textInput"><strong>Enter text to convert to speech:</strong></label>
+      </p>
+      <textarea
+        id="textInput"
+        rows="6"
+        placeholder="Type your text here..."
+        style="width: 50%"
+      ></textarea>
+
+      <div id="controls">
+        <button id="speakButton">Speak</button>
+        <button
+          id="downloadButton"
+          disabled
+        >
+          Download Audio
+        </button>
+      </div>
+
+      <p>This demo works using the browser's built-in <strong>SpeechSynthesis</strong> interface and the available system voices. Voice availability varies between browsers and platforms.</p>
+
+      <h2>Browser Support:</h2>
+      <ul>
+        <li>Chrome 33+</li>
+        <li>Edge 14+</li>
+        <li>Firefox 49+</li>
+        <li>Safari 7+</li>
+      </ul>
+
+      <p style="color: red">Firefox may support limited voices. Audio download support may vary and use experimental APIs.</p>
+
+      <h2>Resources & Links:</h2>
+      <ul>
+        <li>
+          <a href="https://blog.addpipe.com/a-deep-dive-into-the-web-speech-api/">In-depth Article</a>
+        </li>
+        <li>
+          <a href="https://addpipe.com/web-speech-api-demo/">Speech-to-text Demo</a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis">MDN: SpeechSynthesis API</a>
+        </li>
+        <li>
+          Code on GitHub:
+          <a href="https://github.com/addpipe/Web-Speech-API-TextToSpeech-Demo"> Web Speech API TTS Demo </a>
+        </li>
+      </ul>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
