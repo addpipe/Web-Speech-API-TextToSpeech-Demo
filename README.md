@@ -1,6 +1,6 @@
 # Web Speech API SpeechSynthesis Demo
 
-This [Web Speech API Text-to-Speech Demo](https://addpipe.com/web-speech-api-text-to-speech-demo/) uses the Web Speech API’s SpeechSynthesis interface to convert written text into spoken words.
+This [Web Speech API Text-to-Speech Demo](https://addpipe.com/tech-demos/web-speech-api-text-to-speech-demo/) uses the Web Speech API’s SpeechSynthesis interface to convert written text into spoken words.
 
 It uses the following main `SpeechSynthesis` properties: 
 - Voice and language selection
@@ -29,5 +29,5 @@ It uses the following main `SpeechSynthesis` properties:
 
 ## Resources & Links
 - [In-depth article](https://blog.addpipe.com/a-deep-dive-into-the-web-speech-api/)
-- [Speech-to-text demo](https://addpipe.com/web-speech-api-demo/)
+- [Separate speech-to-text demo](https://addpipe.com/tech-demos/web-speech-api-demo/)
 - [MDN: SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
